@@ -8,7 +8,7 @@
 
 ---
 
-In this folder, we've added the algorithm projects carried out during the second year of our Fullstack specialization at holberton school. Theses are algorithm projects in order to be prepared for technicals interview, and make progress in python.
+In this folder, there will be added the algorithm projects carried out during the second year of our Fullstack specialization at holberton school. Theses are algorithm projects in order to be prepared for technicals interview.
 
 ---
 
