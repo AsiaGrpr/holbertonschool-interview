@@ -3,19 +3,16 @@
 
 
 def canUnlockAll(boxes):
-    newList = []
     n = len(boxes)
+    keys = set(boxes[0])
+    unlocked = {0}
+    visited = set()
 
-    if not isinstance(boxes, list):
-        return False
+    while keys:
+        key = keys.pop()
+        if key < n and key not in visited:
+            unlocked.add(key)
+            visited.add(key)
+            keys.update(boxes[key])
 
-    for i in boxes:
-        if len(i) == 0 and i is not boxes[n - 1]:
-            return False
-        for j in i:
-            newList.append(j)
-    for index, key in enumerate(boxes):
-        if index in newList or index < n - 1:
-            return True
-        else:
-            return False
+    return len(unlocked) == n
