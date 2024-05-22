@@ -16,8 +16,20 @@ In this folder, there will be added the algorithm projects carried out during th
 You have n number of locked boxes in front of you. Each box is numbered sequentially from 0 to n - 1 and each box may contain keys to the other boxes.
 Write a method that determines if all the boxes can be opened. (python)
 
-## 2- insert_in_sorted_linked_list
+## 2- Insert_in_sorted_linked_list:
 Write a function in C that inserts a number into a sorted singly linked list.
 
     - **Prototype**: `listint_t *insert_node(listint_t **head, int number)`;  
     - **Return**:  the address of the new node, or NULL if it failed
+  
+## 3- Heap Insert:
+Write a function in C that creates a binary tree node:
+
+    - **Prototype**: `binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)`;  
+    - **Return**:  `a pointer to the new node, or NULL if it failed`;
+
+Write a function in C that inserts a value into a Max Binary Heap:
+
+    - **Prototype**: `heap_t *heap_insert(heap_t **root, int value)`;  
+    - **Return**:  `the address of the inserted node, or NULL if it failed`;
+  
