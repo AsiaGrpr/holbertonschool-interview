@@ -20,7 +20,7 @@ Write a method that determines if all the boxes can be opened. (python)
 Write a function in C that inserts a number into a sorted singly linked list.
 
     - **Prototype**: `listint_t *insert_node(listint_t **head, int number)`;  
-    - **Return**:  the address of the new node, or NULL if it failed
+    - **Return**:  `the address of the new node, or NULL if it failed`
   
 ## 3- Heap Insert:
 Write a function in C that creates a binary tree node:
@@ -36,3 +36,15 @@ Write a function in C that inserts a value into a Max Binary Heap:
 ## 4- Minimum operations:
 In a text file, there is a single character H. Your text editor can execute only two operations in this file: Copy All and Paste. Given a number n, write a method that calculates the fewest number of operations needed to result in exactly n H characters in the file. Be smart about how you utilize the memory! (python)
 
+## 5- Sandpiles
+Write a function in C that computes the sum of two sandpiles
+
+    - **Prototype**: `void sandpiles_sum(int grid1[3][3], int grid2[3][3])`;
+    - Each element of the grid represents the number of sand grains in that cell. Adding the sandpiles must be done according to specific rules, and the final result should be a stable sandpile.
+
+## 6- Linked list cycle
+Write a function in C that checks if a singly linked list is a palindrome.
+
+    - **Prototype**: `int is_palindrome(listint_t **head)`;
+    - **Return**: `0 if it is not a palindrome, 1 if it is a palindrome`
+    - An empty list is considered a palindrome
