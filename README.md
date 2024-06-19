@@ -48,3 +48,11 @@ Write a function in C that checks if a singly linked list is a palindrome.
     - **Prototype**: `int is_palindrome(listint_t **head)`;
     - **Return**: `0 if it is not a palindrome, 1 if it is a palindrome`
     - An empty list is considered a palindrome
+
+## 7- Log parsing
+Write a Python script that reads stdin line by line and computes metrics.
+
+    - Input format: `<IP Address> - [<date>] "GET /projects/260 HTTP/1.1" <status code> <file size>` (if the format is not this one, the line must be skipped)
+    - After every 10 lines and/or a keyboard interruption (`CTRL + C`), print these statistics from the beginning: 
+      - Total file size: `File size: <total size>`.
+      - Number of lines by status code in ascending order.
