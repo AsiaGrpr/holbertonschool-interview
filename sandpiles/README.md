@@ -23,7 +23,7 @@
 
 The ressources of the Betty linter can be found [there](https://github.com/hs-hq/Betty).
 
-# Tasks
+## Tasks
 
 Write a function that computes the sum of two sandpiles
 
