@@ -56,3 +56,11 @@ Write a Python script that reads stdin line by line and computes metrics.
     - After every 10 lines and/or a keyboard interruption (`CTRL + C`), print these statistics from the beginning: 
       - Total file size: `File size: <total size>`.
       - Number of lines by status code in ascending order.
+
+## 8- 2048 (single line)
+The goal of this task is to reproduce the 2048 game(NSFW !!) mechanics on a single horizontal line.
+
+Write a function that slides and merges an array of integers.
+    - **Prototype**: `int slide_line(int *line, size_t size, int direction)`
+    - **Return**: `1 if the operation was successful, 0 if it failed`
+    - `direction` is either `SLIDE_LEFT` or `SLIDE_RIGHT`
