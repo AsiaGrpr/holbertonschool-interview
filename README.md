@@ -64,3 +64,7 @@ Write a function that slides and merges an array of integers.
     - **Prototype**: `int slide_line(int *line, size_t size, int direction)`
     - **Return**: `1 if the operation was successful, 0 if it failed`
     - `direction` is either `SLIDE_LEFT` or `SLIDE_RIGHT`
+
+## 9- Nqueen
+The N queens puzzle is the python challenge of placing N non-attacking queens on an N×N chessboard. Write a program that solves the N queens problem.
+
