@@ -75,7 +75,26 @@ Write, in C, a function that builds an AVL tree from an array
     - `array` is a pointer to the first element of the array to be converted
 
 ## Linked list cycle
-Write a function in C that checks if a singly linked list has a cycle in it.
+Write a function, in C, that checks if a singly linked list has a cycle in it.
     - ***Prototype***: `int check_cycle(listint_t *list)`
     - ***Return***: `0 if there is no cycle, 1 if there is a cycle`
   
+## Palindrome integer
+Write, in C, a function that checks whether or not a given unsigned integer is a palindrome.
+    - ***Prototype***: `int is_palindrome(unsigned long n)`
+    - ***Return***: `1 if n is a palindrome, and 0 otherwise`
+    - You are not allowed to allocate memory dynamically (malloc, calloc, …)
+
+## UTF-8 Validation
+Write a method that determines if a given data set represents a valid UTF-8 encoding.
+    - ***Prototype***: `def validUTF8(data)`
+    - ***Return***: `True if data is a valid UTF-8 encoding, else return False`
+  
+## Menger sponge
+Write a C function that draws a 2D Menger Sponge
+
+    - ***Prototype***: `void menger(int level)`
+    - Where `level` is the level of the Menger Sponge to draw
+    - If `level` is lower than `0`, your function must do nothing
+  
+##
