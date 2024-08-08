@@ -68,3 +68,8 @@ Write a function that slides and merges an array of integers.
 ## 9- Nqueen
 The N queens puzzle is the python challenge of placing N non-attacking queens on an N×N chessboard. Write a program that solves the N queens problem.
 
+## Array to AVL
+Write, in C, a function that builds an AVL tree from an array
+    - **Prototype**: `avl_t *sorted_array_to_avl(int *array, size_t size)`
+    - **Return**: `a pointer to the root node of the created AVL tree, or NULL on failure`
+    - `array` is a pointer to the first element of the array to be converted
