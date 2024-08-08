@@ -1,7 +1,12 @@
 #!/usr/bin/python3
 """
-Method that determines if a given data set
-represents a valid UTF-8 encoding.
+    Determines if a given data set represents a valid UTF-8 encoding.
+
+    Args:
+    - data (list): A list of integers representing individual bytes of data.
+
+    Returns:
+    - bool: True if data is a valid UTF-8 encoding, otherwise False.
 """
 
 
