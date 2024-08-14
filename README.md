@@ -92,9 +92,12 @@ Write a method that determines if a given data set represents a valid UTF-8 enco
   
 ## Menger sponge
 Write a C function that draws a 2D Menger Sponge
-
     - ***Prototype***: `void menger(int level)`
     - Where `level` is the level of the Menger Sponge to draw
     - If `level` is lower than `0`, your function must do nothing
   
-##
+## Linear search in skip list
+Write a function that searches for a value in a sorted skip list of integers, in C.
+- ***Prototype***: `skiplist_t *linear_skip(skiplist_t *list, int value)`
+- Where `list` is a pointer to the head of the skip list to search in
+- ***Return***: `a pointer on the first node where value is located`
