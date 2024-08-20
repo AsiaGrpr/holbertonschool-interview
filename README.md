@@ -102,7 +102,7 @@ Write a function that searches for a value in a sorted skip list of integers, in
 - Where `list` is a pointer to the head of the skip list to search in
 - ***Return***: `a pointer on the first node where value is located`
 
-## Star Wars API - Amateur
+## Star Wars API
 Write a JS script that prints all characters of a Star Wars movie:
 - The first positional argument passed is the Movie ID - example: 3 = “Return of the Jedi”
 - Display one character name per line in the same order as the “characters” list in the /films/ endpoint
