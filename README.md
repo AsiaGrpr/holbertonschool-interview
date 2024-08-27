@@ -106,3 +106,9 @@ Write a function that searches for a value in a sorted skip list of integers, in
 Write a JS script that prints all characters of a Star Wars movie:
 - The first positional argument passed is the Movie ID - example: 3 = “Return of the Jedi”
 - Display one character name per line in the same order as the “characters” list in the /films/ endpoint
+
+## Rain
+Given a list of non-negative integers representing the heights of walls with unit width 1, as if viewing the cross-section of a relief map, calculate in Python how many square units of water will be retained after it rains.
+- ***Prototype***: `def rain(walls)`
+- ***Return***: `Integer indicating total amount of rainwater retained`
+
