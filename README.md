@@ -112,3 +112,8 @@ Given a list of non-negative integers representing the heights of walls with uni
 - ***Prototype***: `def rain(walls)`
 - ***Return***: `Integer indicating total amount of rainwater retained`
 
+## Heap sort
+Write a function that sorts an array of integers in ascending order using the heap sort algorithm.
+- ***Prototype***: `void heap_sort(int *array, size_t size)`
+- You must implement the sift-down heap sort algorithm
+- You’re expected to print the array after each time you swap two elements
