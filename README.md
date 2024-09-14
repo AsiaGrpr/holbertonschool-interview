@@ -117,3 +117,8 @@ Write a function that sorts an array of integers in ascending order using the he
 - ***Prototype***: `void heap_sort(int *array, size_t size)`
 - You must implement the sift-down heap sort algorithm
 - You’re expected to print the array after each time you swap two elements
+
+## Advanced binary search
+Write a function that searches for a value in a sorted array of integers.
+- ***Prototype***: `int advanced_binary(int *array, size_t size, int value)`
+- ***Return***: `The index where value is located, or -1`
