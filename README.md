@@ -122,3 +122,8 @@ Write a function that sorts an array of integers in ascending order using the he
 Write a function that searches for a value in a sorted array of integers.
 - ***Prototype***: `int advanced_binary(int *array, size_t size, int value)`
 - ***Return***: `The index where value is located, or -1`
+
+## Count it!
+Write a recursive function that queries the Reddit API, parses the title of all hot articles, and prints a sorted count of given keywords.
+- ***Prototype***: `def count_words(subreddit, word_list)`
+- ***Return***: `Results printed in descending order, by the count`
