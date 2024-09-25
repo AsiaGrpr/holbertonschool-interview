@@ -127,3 +127,9 @@ Write a function that searches for a value in a sorted array of integers.
 Write a recursive function that queries the Reddit API, parses the title of all hot articles, and prints a sorted count of given keywords.
 - ***Prototype***: `def count_words(subreddit, word_list)`
 - ***Return***: `Results printed in descending order, by the count`
+
+## Heap Extract
+Write a C function that extracts the root node of a Max Binary Heap:
+- ***Prototype***: `int heap_extract(heap_t **root)`
+- ***Return***: `int value stored in the root node, or O for fail`
+
