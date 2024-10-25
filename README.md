@@ -133,3 +133,34 @@ Write a C function that extracts the root node of a Max Binary Heap:
 - ***Prototype***: `int heap_extract(heap_t **root)`
 - ***Return***: `int value stored in the root node, or O for fail`
 
+## Infinite Multiplication
+Write a C program that multiplies two positive numbers:
+- ***Usage***: `mul num1 num2`
+- num1 and num2 will be passed in base 10
+  
+## Rotate 2D Matrix
+Write a Python function that rotates a n x n 2D matrix 90 degrees clockwise:
+- ***Prototype***: `def rotate_2d_matrix(matrix)`
+- Do not return anything. The matrix must be edited **in-place**.
+- You can assume the matrix will have 2 dimensions and will not be empty.
+
+## Find the Loop
+Write a function in C that finds the loop in a linked list.
+- ***Prototype***: `listint_t *find_listint_loop(listint_t *head)`
+- ***Returns***: `The address of the node where the loop starts, or NULL if there is no loop`
+
+## Merge Sort
+Write a  C function that sorts an array of integers in ascending order using the Merge Sort algorithm:
+- ***Prototype***: `void merge_sort(int *array, size_t size)`
+- You must implement the **top-down** merge sort algorithm
+    - When you divide an array into two sub-arrays, the size of the left array should always be <= the size of the right array. i.e. {1, 2, 3, 4, 5} -> {1, 2}, {3, 4, 5}
+    - Sort the left array before the right array
+
+## Making Change
+Given a pile of coins of different values, write a Python funtion to determine the fewest number of coins needed to meet a given amount total.
+- ***Prototype***: `def makeChange(coins, total)`
+- ***Return***: `fewest number of coins needed to meet total`
+    - If `total` is `0` or less, return `0`
+    - If `total` cannot be met by any number of coins you have, return `-1`
+
+## 
