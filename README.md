@@ -176,3 +176,9 @@ Create the source file `0-add_node.c` that contains the following functions:
     - `List`: the list to modify
         - `str`: the string to copy into the new node
         - ***Return***: `Address of the new node, or NULL on failure`
+
+## Radix Sort
+Write a function that sorts an array of integers in ascending order using the Radix sort algorithm
+- ***Prototype***: `void radix_sort(int *array, size_t size)`
+- You must implement the **LSD** radix sort algorithm
+- You’re expected to print the `array` each time you increase your `significant digit` 
