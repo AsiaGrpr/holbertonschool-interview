@@ -182,3 +182,8 @@ Write a function that sorts an array of integers in ascending order using the Ra
 - ***Prototype***: `void radix_sort(int *array, size_t size)`
 - You must implement the **LSD** radix sort algorithm
 - You’re expected to print the `array` each time you increase your `significant digit` 
+
+## AVL Trees
+Write a C function that checks if a binary tree is a valid AVL Tree
+- ***Prototype***: `int binary_tree_is_avl(const binary_tree_t *tree)`
+- ***Return*** `1 if tree is a valid AVL Tree, and 0 otherwise`
